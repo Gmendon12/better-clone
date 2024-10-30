@@ -5,6 +5,7 @@ import './Navbar.css'
 import Link from 'next/link';
 import { Drawer, IconButton, List, ListItem, ListItemText } from '@mui/material';
 import Dropdown from './Dropdown';
+import Image from 'next/image';
 
 function Navbar() {
 
@@ -83,35 +84,35 @@ useEffect(() => {
                             <div className='hoveredItem-dropdown'>
                             <div className='hoveredItem-dropdown-item'>
                                 <span>Apply now</span>
-                                <img src="/arrow-forward.png" className='arrow-forward' alt="" />
+                                <Image src="/arrow-forward.png" className='arrow-forward' alt="" />
                             </div>
                             <div className='hoveredItem-dropdown-item'>
                                 <span>Purchase rates</span>
-                                <img src="/arrow-forward.png" className='arrow-forward' alt="" />
+                                <Image src="/arrow-forward.png" className='arrow-forward' alt="" />
                             </div>
                             <div className='hoveredItem-dropdown-item'>
                                 <span>Affordability calculator</span>
-                                <img src="/arrow-forward.png" className='arrow-forward' alt="" />
+                                <Image src="/arrow-forward.png" className='arrow-forward' alt="" />
                             </div>
                             <div className='hoveredItem-dropdown-item'>
                                 <Link href='/mortgage'><span>Mortgage calculator</span></Link> 
-                                <img src="/arrow-forward.png" className='arrow-forward' alt="" />
+                                <Image src="/arrow-forward.png" className='arrow-forward' alt="" />
                             </div>
                             <div className='hoveredItem-dropdown-item'>
                                 <span>Rent vs buy calculator</span>
-                                <img src="/arrow-forward.png" className='arrow-forward' alt="" />
+                                <Image src="/arrow-forward.png" className='arrow-forward' alt="" />
                             </div>
                             <div className='hoveredItem-dropdown-item'>
                                 <span>Find an agent</span>
-                                <img src="/arrow-forward.png" className='arrow-forward' alt="" />
+                                <Image src="/arrow-forward.png" className='arrow-forward' alt="" />
                             </div>
                             <div className='hoveredItem-dropdown-item'>
                                 <span>VA loans</span>
-                                <img src="/arrow-forward.png" className='arrow-forward' alt="" />
+                                <Image src="/arrow-forward.png" className='arrow-forward' alt="" />
                             </div>
                             <div className='hoveredItem-dropdown-item'>
                                 <span>Learning center</span>
-                                <img src="/arrow-forward.png" className='arrow-forward' alt="" />
+                                <Image src="/arrow-forward.png" className='arrow-forward' alt="" />
                             </div>
                         </div> 
                         )
@@ -121,19 +122,19 @@ useEffect(() => {
                             <div className='hoveredItem-dropdown'>
                                 <div className='hoveredItem-dropdown-item'>
                                 <span>Apply now</span>
-                                <img src="/arrow-forward.png" className='arrow-forward' alt="" />
+                                <Image src="/arrow-forward.png" className='arrow-forward' alt="" />
                             </div>
                             <div className='hoveredItem-dropdown-item'>
                                 <span>Refinance rates</span>
-                                <img src="/arrow-forward.png" className='arrow-forward' alt="" />
+                                <Image src="/arrow-forward.png" className='arrow-forward' alt="" />
                             </div>
                             <div className='hoveredItem-dropdown-item'>
                                 <span>Cash out refinance calculator</span>
-                                <img src="/arrow-forward.png" className='arrow-forward' alt="" />
+                                <Image src="/arrow-forward.png" className='arrow-forward' alt="" />
                             </div>
                             <div className='hoveredItem-dropdown-item'>
                                 <span>Learning center</span>
-                                <img src="/arrow-forward.png" className='arrow-forward' alt="" />
+                                <Image src="/arrow-forward.png" className='arrow-forward' alt="" />
                             </div>
                             </div>
                         )
@@ -143,19 +144,19 @@ useEffect(() => {
                             <div className='hoveredItem-dropdown'>
                                 <div className='hoveredItem-dropdown-item'>
                                 <span>Apply now</span>
-                                <img src="/arrow-forward.png" className='arrow-forward' alt="" />
+                                <Image src="/arrow-forward.png" className='arrow-forward' alt="" />
                                 </div>
                                 <div className='hoveredItem-dropdown-item'>
                                 <span>Calculate your cash</span>
-                                <img src="/arrow-forward.png" className='arrow-forward' alt="" />
+                                <Image src="/arrow-forward.png" className='arrow-forward' alt="" />
                             </div>
                             <div className='hoveredItem-dropdown-item'>
                                 <span>Cash out refinance calculator</span>
-                                <img src="/arrow-forward.png" className='arrow-forward' alt="" />
+                                <Image src="/arrow-forward.png" className='arrow-forward' alt="" />
                             </div>
                             <div className='hoveredItem-dropdown-item'>
                                 <span>Learning center</span>
-                                <img src="/arrow-forward.png" className='arrow-forward' alt="" />
+                                <Image src="/arrow-forward.png" className='arrow-forward' alt="" />
                             </div>
                             </div>
                         )
@@ -165,23 +166,23 @@ useEffect(() => {
                             <div className='hoveredItem-dropdown'>
                                 <div className='hoveredItem-dropdown-item'>
                                 <span>Purchase mortgage rates</span>
-                                <img src="/arrow-forward.png" className='arrow-forward' alt="" />
+                                <Image src="/arrow-forward.png" className='arrow-forward' alt="" />
                                 </div>
                                 <div className='hoveredItem-dropdown-item'>
                                 <span>Refinance rates</span>
-                                <img src="/arrow-forward.png" className='arrow-forward' alt="" />
+                                <Image src="/arrow-forward.png" className='arrow-forward' alt="" />
                             </div>
                             <div className='hoveredItem-dropdown-item'>
                                 <span>Refinance cash-out rates</span>
-                                <img src="/arrow-forward.png" className='arrow-forward' alt="" />
+                                <Image src="/arrow-forward.png" className='arrow-forward' alt="" />
                             </div>
                             <div className='hoveredItem-dropdown-item'>
                                 <span>HELOC rates</span>
-                                <img src="/arrow-forward.png" className='arrow-forward' alt="" />
+                                <Image src="/arrow-forward.png" className='arrow-forward' alt="" />
                             </div>
                             <div className='hoveredItem-dropdown-item'>
                                 <span>Purchase rates</span>
-                                <img src="/arrow-forward.png" className='arrow-forward' alt="" />
+                                <Image src="/arrow-forward.png" className='arrow-forward' alt="" />
                             </div>
                             </div>
                         )
@@ -191,32 +192,32 @@ useEffect(() => {
                             <div className='hoveredItem-dropdown'>
                                 <div className='hoveredItem-dropdown-item'>
                                 <span>Get insurance</span>
-                                <img src="/arrow-forward.png" className='arrow-forward' alt="" />
+                                <Image src="/arrow-forward.png" className='arrow-forward' alt="" />
                                 </div>
                                 <div className='hoveredItem-dropdown-item'>
                                 <span>Title and Closing</span>
-                                <img src="/arrow-forward.png" className='arrow-forward' alt="" />
+                                <Image src="/arrow-forward.png" className='arrow-forward' alt="" />
                             </div>
                             <div className='hoveredItem-dropdown-item'>
                                 <span>Better Attorney Match</span>
-                                <img src="/arrow-forward.png" className='arrow-forward' alt="" />
+                                <Image src="/arrow-forward.png" className='arrow-forward' alt="" />
                             </div>
                             <div className='hoveredItem-dropdown-item'>
                                 <span>Learning Center</span>
-                                <img src="/arrow-forward.png" className='arrow-forward' alt="" />
+                                <Image src="/arrow-forward.png" className='arrow-forward' alt="" />
                             </div>
                             <div className='hoveredItem-dropdown-item'>
                                 <div>
                                     Better Agent match
                                     <span className='for-agents'>For Agents</span>
                                 </div>
-                                <img src="/arrow-forward.png" className='arrow-forward' alt="" />
+                                <Image src="/arrow-forward.png" className='arrow-forward' alt="" />
                             </div>
                             <div className='hoveredItem-dropdown-item'>
                                 <div>Better Duo
                                 <span className='for-agents'>For Agents</span>
                                 </div>
-                                <img src="/arrow-forward.png" className='arrow-forward' alt="" />
+                                <Image src="/arrow-forward.png" className='arrow-forward' alt="" />
                             </div>
                             </div>
                         )

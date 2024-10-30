@@ -83,13 +83,13 @@ function GotQuestions() {
         <div className='got-questions'>
         <div className='got-questions-text'>
             <div>Got questions?</div>
-            <div>We've got answers</div>
+            <div>We have got answers</div>
         </div>
         <div>
         <div className='review-btn-flex-2'>
             <button className={`reviews-btn ${activeButton === 'button1' ? 'active' : ''}`}  onClick={()=> handleClick("button1")}>Our products</button>
             <button className={`reviews-btn ${activeButton === 'button2' ? 'active' : ''}`}  onClick={()=> handleClick("button2")}>Calculators</button>
-            <button className={`reviews-btn ${activeButton === 'button3' ? 'active' : ''}`}  onClick={()=> handleClick("button3")}>Guides & FAQ's</button>
+            <button className={`reviews-btn ${activeButton === 'button3' ? 'active' : ''}`}  onClick={()=> handleClick("button3")}>Guides & FAQs</button>
             </div>
         </div>
         </div>

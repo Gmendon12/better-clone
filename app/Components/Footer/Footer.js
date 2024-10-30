@@ -60,7 +60,7 @@ function Footer() {
         <span>Media</span>
         <span>Partner With Us</span>
         <span>Learning center</span>
-        <span>FAQ's</span>
+        <span>FAQs</span>
         <span>Investor Relations</span>
     </div>
 </div>

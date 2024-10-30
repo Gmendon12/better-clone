@@ -1,5 +1,6 @@
 import React from 'react'
 import './Template.css'
+import Image from 'next/image';
 
 function Template() {
   return (
@@ -7,7 +8,7 @@ function Template() {
 
         <div className='rate-drop'>
             <div className='rate-drop-item'>
-                <img src="/rate-drop.png" alt="" className='rate-drop-icon' />
+                <Image src="/rate-drop.png" alt="" className='rate-drop-icon' />
             </div>
             <span className='rate-drop-text'>
             Rate drop alert
@@ -21,17 +22,17 @@ function Template() {
             <div className='start-approval'>
                 <button className='approval-btn'>Start my approval</button>
                 <div style={{display:'flex', flexDirection:'row', gap:'5px', alignItems:'center'}}>
-                    <img src="/alarm.png" alt="" className='alarm-icon' />
+                    <Image src="/alarm.png" alt="" className='alarm-icon' />
                     <span className='min'>3 min</span>
                     <span className='vertical-line'>|</span>
                     <span className='no-credit'>No credit impact</span>
                 </div>
             </div>
-            <img src="\smartphone.png" alt="" className='smartphone-img' />
+            <Image src="\smartphone.png" alt="" className='smartphone-img' />
             <div className='reviews'>
                 <div className='google-icon-rating'>
-                    <img src="/google-icon.png" alt="" className='google-icon' />
-                    <img src="/rating.png" alt="" className='rating' />
+                    <Image src="/google-icon.png" alt="" className='google-icon' />
+                    <Image src="/rating.png" alt="" className='rating' />
                 </div>
                 <div style={{display:'flex', flexDirection:'row', gap:'5px', alignItems:'end'}}>
                     <span>4.6 Stars</span>

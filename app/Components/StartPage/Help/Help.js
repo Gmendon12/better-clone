@@ -1,5 +1,6 @@
 import React from 'react'
 import './Help.css'
+import Image from 'next/image';
 
 function Help() {
   return (
@@ -9,18 +10,18 @@ function Help() {
         </div>
         <div className='question-box-flex'>
             <div className='question-box'>
-                <img src="/buy-home.png" alt="" className='question-box-icon' />
+                <Image src="/buy-home.png" alt="" className='question-box-icon' />
                 <div>Buying a home</div>
                 </div>
             <div className='question-box'>
-            <img src="/refinance.png" alt="" className='question-box-icon' />
+            <Image src="/refinance.png" alt="" className='question-box-icon' />
             <div>Refinancing</div>
             </div>
             <div className='question-box'>
-                <img src="/cash-out.png" alt="" className='question-box-icon' />
+                <Image src="/cash-out.png" alt="" className='question-box-icon' />
             <div>Cash out refinance</div></div>
             <div className='question-box'>
-            <img src="/cash-out2.png" alt="" className='question-box-icon' />
+            <Image src="/cash-out2.png" alt="" className='question-box-icon' />
             <div>Home Equity line or Credit</div>
             </div>
         </div>
@@ -38,17 +39,17 @@ function Help() {
             <div>After a few questions, you'll unlock</div>
             <div className='section-3-contents'>
                 <div style={{display:'flex', flexDirection:'row', gap:'20px'}}>
-                <img src="/cash-out.png" alt="" className='section-3-icon' />
+                <Image src="/cash-out.png" alt="" className='section-3-icon' />
                 <span className='section-3-link'>Custom mortgage rates</span>
                 </div>
 
                 <div style={{display:'flex', flexDirection:'row',gap:'20px'}}>
-                <img src="/cash-out.png" alt="" className='section-3-icon' />
+                <Image src="/cash-out.png" alt="" className='section-3-icon' />
                 <span className='section-3-link'>Exclusive rates</span>
                 </div>
                 
                 <div style={{display:'flex', flexDirection:'row',gap:'20px'}}>
-                <img src="/cash-out.png" alt="" className='section-3-icon' />
+                <Image src="/cash-out.png" alt="" className='section-3-icon' />
                 <span className='section-3-link'>personalised dashboard</span>
                 </div>
             </div>

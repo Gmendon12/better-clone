@@ -2,6 +2,7 @@
 
 import React, { useState,useEffect } from 'react'
 import './Header.css'
+import Image from 'next/image';
 
 function Header() {
     const [isFixed, setIsFixed] = useState(false);
@@ -29,7 +30,7 @@ function Header() {
    
     return (
     <div className={`start-header ${isFixed ? 'fixed' : ''} ${stopScroll ? 'stop' : ''}`}>
-        <img src="/start-page.png" alt="" className='start-page-help-img' />
+        <Image src="/start-page.png" alt="" className='start-page-help-img' />
         <div className='start-header-contents'>
             <div className='start-header-contents-1'>
                 <span className='better'>Better</span>

@@ -2,6 +2,7 @@
 
 import React, {useState} from 'react'
 import "./WhyWeAreBetter.css"
+import Image from 'next/image';
 
 function WhyWeAreBetter() {
 
@@ -54,7 +55,7 @@ function WhyWeAreBetter() {
             <div className='why-we-are-better-text'>Find out why we're better</div>
             <button className='why-we-are-better-btn'>See all our stories</button>
             <div className='trustpilot-contents'>
-                <img src="/truspilot.png" alt="" className='trustpilot-icon' />
+                <Image src="/truspilot.png" alt="" className='trustpilot-icon' />
                 <span className='excellent'>Excellent</span>
                 <span className='stars'>4.4 out of 5</span>
             </div>
