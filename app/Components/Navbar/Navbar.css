@@ -1,0 +1,349 @@
+.navbar{
+    padding: 1.25rem;
+    padding-right: 2.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 8vw;
+    background-color: rgb(0 71 51);
+    border: 0 solid;
+    box-sizing: border-box;
+    color: #FFFF;
+    position: fixed;
+    z-index: 1000;
+    box-sizing: border-box;
+}
+
+.navbar.scrolled{
+    background-color: #FFFF;
+    color: black;
+}
+
+.navbar-section-1{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    align-items: start; 
+}
+
+.better-logo{
+    font-size: 2vw;
+    font-weight: 700;
+    color: #FFFF;
+}
+
+.navbar.scrolled .better-logo{
+    color: rgb(0 71 51);
+}
+
+.navbar-section-1-contents{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+
+.navbar-item{
+    padding: 15px 20px;
+    width: fit-content;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.navbar-item:hover{
+    background-color: #FFFF;
+    color: black;
+    border-radius: 28px;
+    cursor: pointer;
+}
+
+.navbar-item-container {
+    position: relative;
+}
+
+
+.hover-element {
+    position: absolute;
+    top: 110%; /* Directly below the navbar item */
+    left: 0;
+    z-index: 10;
+}
+
+.hoveredItem-dropdown {
+    background-color: #ffff;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    white-space: nowrap;
+    min-width: 400px;
+    font-size: 18px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1)
+}
+
+.hoveredItem-dropdown-item{
+    padding: 10px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.arrow-forward{
+    height: 24px;
+   visibility: hidden;
+}
+
+.hoveredItem-dropdown-item:hover{
+    background-color: #D3D3D3;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.hoveredItem-dropdown-item:hover .arrow-forward{
+   visibility: visible;
+}
+
+.for-agents{
+    background-color: rgb(235, 203, 26);
+    padding: 10px;
+    border-radius: 16px;
+    margin-left: 20px;
+}
+
+.navbar-section-2-contents{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:2rem;
+}
+
+
+.navbar-call{
+    height: 4vw;
+    width:4vw;
+    border-radius: 50%;
+    border: 1px solid #FFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s, color 0.3s;
+    position: relative;
+}
+
+#call-icon{
+    font-size: 2vw;
+}
+
+.navbar-call:hover{
+    background-color: #FFFF;
+    cursor: pointer;
+}
+
+.navbar-call:hover #call-icon{
+    color: black;
+}
+
+.hover-element-call {
+    position: absolute;
+    top: 100%; /* Directly below the navbar item */
+    right: 0px;
+    z-index: 10;
+    background-color: #FFFF;
+    color: black;
+    margin-top: 10px;
+    padding: 30px;
+    border-radius: 16px;
+    white-space: nowrap;
+    font-size: 18px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1)
+}
+
+.sign-in{
+    padding-right: 50px;
+}
+
+.get-started-btn{
+    padding: 1.25vw;
+    cursor: pointer;
+    font-size: 1.5vw;
+    background-color: rgb( 0 71 51);
+    color: #FFFF;
+    border-radius: 32px;
+}
+
+.get-started-btn:hover{
+    background-color: rgb(1, 95, 68);
+}
+
+.navbar.scrolled .navbar-call{
+    border: 1px solid black;
+}
+
+.navbar.scrolled .navbar-call:hover{
+    background-color: rgb(230, 230, 230);
+    border-color: rgb(230, 230, 230);
+}
+
+.navbar.scrolled .navbar-item:hover{
+    background-color: rgb(230, 230, 230)
+}
+
+.navbar-two{
+    padding: 1.25rem;
+    padding-right: 2.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: #FFFF;
+    border: 0 solid;
+    box-sizing: border-box;
+    color: black;
+    position: fixed;
+    z-index: 1000;
+}
+
+.better-logo-2{
+    font-size: 35px;
+    font-weight: 700;
+    color: rgb( 0 71 51);
+}
+
+.navbar-item-2{
+    padding: 15px 20px;
+    width: fit-content;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.navbar-item-2:hover{
+    background-color: rgb(230, 230, 230);
+    border-radius: 28px;
+}
+
+.navbar-call-2{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid  black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s ease;
+    position: relative;
+}
+
+.navbar-call-2:hover{
+    background-color: rgb(230, 230, 230);
+    border-color: rgb(230, 230, 230);
+    cursor: pointer;
+}
+
+#menu-icon{
+    display: none;
+}
+
+.drawer{
+    width: 100%;
+}
+
+.drawer-container{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.drawer-container-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: rgb(0 71 21);
+}
+
+.drawer-logo{
+    color: rgb( 0 71 51);
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.drawer-container-dropdown{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    font-size: 1.2rem;
+}
+
+.call-us-btn{
+    width: 100%;
+    padding: 1.2rem;
+    background-color:#e0e0e0 ;
+    border-radius: 30px;
+}
+
+.drawer-btns{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.drawer-get-started-btn{
+    width: 100%;
+    padding: 1.2rem;
+    background-color: rgb( 0 71 51);
+    border-radius: 30px;
+    color: #FFFF;
+}
+
+.drawer-sign-in-btn{
+    width: 100%;
+    padding: 1.2rem;
+    border-radius: 30px;
+    border: 1px solid;
+}
+
+@media (max-width: 1090px) {
+    #menu-icon{
+        display: inline;
+    }
+    .navbar-section-1-contents{
+        display: none;
+    }
+    #sign-in-navbar{
+        display: none;
+    }
+}
+
+@media (max-width:590px) {
+    .better-logo{
+        font-size: 4vw;
+    }
+}
+
+@media(max-width: 420px){
+    .navbar{
+        height: 12vw;
+    }
+    .navbar-call{
+        height: 6vw;
+        width:6vw;
+    }
+    #call-icon{
+        font-size: 1rem;
+    }
+    .get-started-btn{
+        padding: 2vw;
+        cursor: pointer;
+        font-size: 2vw;
+        border-radius: 32px;
+    }
+}

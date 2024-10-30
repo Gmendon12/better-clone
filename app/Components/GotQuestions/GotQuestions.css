@@ -1,0 +1,204 @@
+.got-questions-container{
+    padding: 3vw;
+    padding-top: 3vw;
+}
+
+.got-questions{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.got-questions-text{
+    font-size: 3.2vw;
+    font-weight: 500;
+}
+
+#displayed-data{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-top: 20px;
+}
+
+.got-questions-content {
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 2rem;
+}
+
+.got-questions-content-2{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+}
+
+.small {
+    grid-area: "small";
+    padding: 3rem;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.large {
+    grid-area: "large";
+    padding: 3rem;
+    background-color:#f0f0f0 ;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: space-between;
+}
+
+.large-contents, .large-contents-2{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.large-contents-2-hide{
+    display: none;
+}
+
+.first-box-text, .second-box-text{
+    font-size: 1.75rem;
+    color: rgb(0 71 51);
+    font-weight: 600;
+}
+
+.first-box-arrow{
+    height: 3.5rem;
+    width: 3.5rem;
+    border-radius: 50%;
+    border: 1px solid rgb(0 71 51);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.first-box-img{
+    height: 10vw;
+}
+
+#first-box-arrow-forward, #second-box-arrow-forward{
+    font-size: 2rem;
+}
+
+.first-box-arrow:hover{
+    background-color: rgb(0 71 51);
+    cursor: pointer;
+}
+
+.first-box-arrow:hover #first-box-arrow-forward{
+    color: #FFFF;
+}
+
+.first-box-arrow:hover #second-box-arrow-forward{
+    color: #FFFF;
+}
+
+
+.section-2-2{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(147, 247, 218);
+    border-radius: 12px;
+    font-size: 36px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.better-heloc-img{
+    height: 100%;
+    width: 100%;
+    background-image: url('/better-heloc.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.mortgage-img{
+    height: 100%;
+    width: 100%;
+    background-image: url('/house2.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.second-box-para{
+    width: 90%;
+}
+
+@media (max-width: 1024px) {
+    .got-questions{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 2rem;
+    }
+    .got-questions-content {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 2rem;
+    }
+    .got-questions-content-2{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 2rem;
+    }
+    .small{
+        height: 40vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .first-box-img{
+        height: 100%;
+    }
+    .large{
+        height: 40vw;
+    }
+    .better-heloc-img{
+        order: 2;
+    }
+    .second-box-para{
+        display: none;
+    }
+}
+
+@media (max-width: 770px) {
+    .second-box-para{
+        display: none;
+    }
+    .first-box-text, .second-box-text{
+        font-size: 1.2rem;
+    }
+    .small, .large{
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+    }
+    .first-box-img{
+        display: none;
+    }
+}
+
+@media (max-width:420px) {
+    .got-questions-text{
+        font-size: 1.5rem;
+    }
+    .small, .large{
+        padding: 2rem;
+    }
+    
+}

@@ -1,0 +1,189 @@
+.section-3{
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 5rem;
+}
+
+.section-3-contents{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.text{
+    font-size: 34px;
+    font-weight: 600;
+}
+
+.para{
+    font-size: 1rem;
+}
+
+.section-3-3{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+}
+
+.debt-to-income, .debt-to-income-ratio{
+    width: fit-content;
+    height: fit-content;
+    padding: 40px;    
+    background-color: #e0e0e0;
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    align-items: center;
+    justify-content: center;
+    font-size: 2vw;
+    font-weight: 500;
+    color: rgb(1, 95, 68);
+    border-radius: 10px;
+}
+
+.debt-payments{
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    align-items: center;
+}
+
+.mdp{
+padding-left: 1.5rem;
+padding-right: 1.5rem;
+}
+
+.line{
+    width: 100%;
+    height: 3px;
+    background-color: rgb(1, 95, 68);
+}
+
+.dti{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: #e0e0e0;
+    padding: 30px;
+    align-items: center;
+}
+
+.dti-1{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.dti-1-1{
+    width: 35vw;
+    height: 30vw;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: #FFFF;
+    padding: 1.5rem;
+    justify-content: space-between;
+}
+
+.dti-text{
+    font-size: 2vw;
+    color: rgb(1, 95, 68);
+    font-weight: 500;
+}
+
+.dti-1-1-container{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: space-between;
+    font-size: 1.5vw;
+}
+
+.dti-1-1-contents{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: start;
+    text-align: start;
+}
+
+@media (max-width: 770px) {
+    .section-3{
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }    
+    /* .dti-1{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    } */
+    .debt-payments{
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        align-items: center;
+    }
+    .debt-to-income, .debt-to-income-ratio{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        gap: 4vw;
+        padding: 4vw;
+        font-size: 1rem;
+    }
+    .text{
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+    .para{
+        font-size: 1rem;
+    }
+    .dti{
+        gap: 1rem;
+        padding: 4vw;
+    }
+    .dti-1{
+        display: flex;
+        flex-direction: row;
+        gap: 0.5rem;
+    }
+    .dti-1-1{
+        width: 100%;
+        height: fit-content;
+        flex-direction: column;
+        gap: 2rem;
+        background-color: #FFFF;
+        padding: 4vw;
+        justify-content: space-between;
+        font-size: 16px;
+    }
+}
+
+@media (max-width:430px) {
+    .section-3{
+        padding-top: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .dti-1-1{
+        width: 100%;
+        height: fit-content;
+        flex-direction: column;
+        gap: 1rem;
+        background-color: #FFFF;
+        justify-content: space-between;
+        font-size: 18px;
+    }
+    .dti{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        padding: 20px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}

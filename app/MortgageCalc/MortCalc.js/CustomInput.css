@@ -1,0 +1,76 @@
+.input-container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .custom-input{
+    height: 5rem;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #708090;
+    border-radius: 10px;
+    outline: none;
+    padding-top: 20px;
+    padding-left: 20px;
+    box-sizing: border-box;
+  }
+
+  .secondary-input{
+    height: 5rem;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #708090;
+    border-left: none;
+    border-radius: 10px;
+    outline: none;
+    padding-top: 20px;
+    padding-left: 20px;
+    box-sizing: border-box;
+  }
+
+  .custom-input:hover, .secondary-input:hover{
+    border: 4px solid rgb(1, 95, 68);
+  }
+  
+  .custom-label {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    font-size: 20px;
+    color: #888;
+    pointer-events: none;
+    transition: all 0.2s ease;
+    transform: translateY(-50%);
+  }
+
+  .custom-secondary-label{
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    font-size: 20px;
+    color: #888;
+    pointer-events: none;
+    transition: all 0.2s ease;
+    transform: translateY(-50%);
+  }
+  
+  .custom-input:focus + .custom-label,
+  .focused {
+    top: 15px;
+    left: 5px;
+    font-size: 16px;
+    color: #333;
+    padding-left: 10px;
+  }
+
+  .secondary-input:focus{
+    top: 25px;
+  }
+
+  .percentage{
+    position: absolute;
+    right: 10px;
+    top: 1.5rem;
+    font-size: 1.5rem;
+  }
