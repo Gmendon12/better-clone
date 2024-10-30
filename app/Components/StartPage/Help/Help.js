@@ -6,7 +6,7 @@ function Help() {
   return (
     <div className='help'>
         <div className='help-question'>
-            Hi, i'm John ! <br /> What can I help you with ?
+            Hi, i&apos;m John ! <br /> What can I help you with ?
         </div>
         <div className='question-box-flex'>
             <div className='question-box'>
@@ -36,7 +36,7 @@ function Help() {
             </div>
         </div>
         <div className='section-3'>
-            <div>After a few questions, you'll unlock</div>
+            <div>After a few questions, you&apos;ll unlock</div>
             <div className='section-3-contents'>
                 <div style={{display:'flex', flexDirection:'row', gap:'20px'}}>
                 <Image src="/cash-out.png" alt="" className='section-3-icon' />

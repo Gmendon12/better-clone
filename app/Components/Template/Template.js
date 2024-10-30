@@ -15,7 +15,7 @@ function Template() {
             </span>
         </div>
 
-        <div className='template-text'>The rate drop you've <br />
+        <div className='template-text'>The rate drop you&apos;ve <br />
          been waiting for</div>
  
         <div className='template-section-3'>

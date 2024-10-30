@@ -43,18 +43,6 @@ const[showDropdown, setShowDropdown] = useState(false)
 
  const totalUtilities = Object.values(utilties).reduce((acc,curr) => acc + curr,0)
 
-//  useEffect(() => {
-//     const total =
-//     Number(principalRate) +
-//       Number(propertyTaxes) +
-//       Number(homeInsurance) +
-//       Number(hoaFees) +
-//       totalUtilities +
-//       Number(pmi);
-      
-//     setTotal(total.toFixed());
-//   }, [propertyTaxes, homeInsurance, hoaFees, totalUtilities, pmi]);
-
 useEffect(() =>{
     const handleScroll = () =>{
         const scrollY = window.scrollY;

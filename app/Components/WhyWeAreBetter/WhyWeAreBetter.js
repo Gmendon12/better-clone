@@ -38,7 +38,7 @@ function WhyWeAreBetter() {
 
             <div className='reviews-container-img' style={{backgroundImage: `url(${displayedData.img})`}}>
                 <div className='reviews-contents'>
-                    <p style={{fontSize:'22px'}}>"</p>
+                    <p style={{fontSize:'22px'}}>&apos;&apos;</p>
                 <p className='review-text'>{displayedData.review}</p>
                 <p className='review-name'>{displayedData.name}</p>
                 </div>
@@ -52,7 +52,7 @@ function WhyWeAreBetter() {
         </div>
 
         <div className='why-we-are-better-2'>
-            <div className='why-we-are-better-text'>Find out why we're better</div>
+            <div className='why-we-are-better-text'>Find out why we&apos;re better</div>
             <button className='why-we-are-better-btn'>See all our stories</button>
             <div className='trustpilot-contents'>
                 <Image src="/truspilot.png" alt="" className='trustpilot-icon' />
