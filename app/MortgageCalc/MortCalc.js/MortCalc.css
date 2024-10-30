@@ -127,6 +127,11 @@
     color: #666;
   }
   
+.mortgage-calc-input-1{
+    display: flex;
+    flex-direction: row;
+}
+
   .mortgage-calc-input-1-1{
     display: flex;
     flex-direction: row;
