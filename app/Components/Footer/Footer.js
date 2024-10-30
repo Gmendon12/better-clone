@@ -1,6 +1,7 @@
 import React from 'react'
 import './Footer.css'
 import Link from 'next/link';
+import Image from 'next/image';
 
 function Footer() {
   return (
@@ -87,9 +88,9 @@ function Footer() {
 
 <div className='footer-section-2'>
         <div className='social-media-icons'>
-          <img src="/facebook.png" alt="" className='media-icons' />
-          <img src="/instagram.png" alt="" className='media-icons' />
-          <img src="/linkedIn.png" alt="" className='media-icons' />
+          <Image src="/facebook.png" alt="" className='media-icons' />
+          <Image src="/instagram.png" alt="" className='media-icons' />
+          <Image src="/linkedIn.png" alt="" className='media-icons' />
         </div>
         <div className='footer-section-2-para'>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia <u>deserunt mollit anim id est laborum</u> </p>

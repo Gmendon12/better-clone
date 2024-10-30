@@ -2,6 +2,7 @@
 
 import React, {useState} from 'react'
 import './GotQuestions.css'
+import Image from 'next/image';
 
 function GotQuestions() {
   
@@ -103,7 +104,7 @@ function GotQuestions() {
                     <span class="material-symbols-outlined" id='first-box-arrow-forward'>arrow_forward</span>
                 </div>
                 </div>
-                <img src="/house.jpg" alt="" className='first-box-img' />
+                <Image src="/house.jpg" alt="" className='first-box-img' />
             </div>
 
             <div className='large'>
@@ -139,7 +140,7 @@ function GotQuestions() {
                 </div>
             </div>
           
-                <img src="/insurance.jpg" alt="" className='first-box-img' />
+                <Image src="/insurance.jpg" alt="" className='first-box-img' />
             </div>
             </div>
         </div>
