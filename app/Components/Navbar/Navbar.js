@@ -314,7 +314,8 @@ useEffect(() => {
             </div>
             <button className='call-us-btn'>Call us anytime at (123)534567777</button>
             <div  className='drawer-btns'>
-                <button className='drawer-get-started-btn'>Get started</button>
+                <Link href='/start'> <button className='drawer-get-started-btn'>Get started</button></Link>
+               
                 <button className='drawer-sign-in-btn'>Sign in</button>
             </div>
          
