@@ -189,12 +189,6 @@ const handleNumericInput = (setter) => (e) => {
                             onSecondaryChange={handleNumericInput(setDownPaymentInterest)}
                             secondaryWidth='100%'
                             />
-                            {/* <input 
-                            type="text" 
-                            className='down-payment-percentage'  value={downPaymentInterest}
-                            onChange={handleNumericInput(setDownPaymentInterest)}
-                           /> */}
-                        {/* </div> */}
                         <CustomInput 
                         label='Interest rate (%)' 
                         value={interestRate} 
@@ -221,7 +215,7 @@ const handleNumericInput = (setter) => (e) => {
             </div>
           </Drawer>
 
-            <div className='mortgage-calc-input-1'>
+        <div className='mortgage-calc-input-1'>
                     <div className='mortgage-calc-input-1-1'>
                         <CustomInput 
                         label='zip code'
